@@ -11,7 +11,7 @@ module.exports = {
         ],
         sourceMapFilename: '[file].map'
     },
-    devtool: "source-map",
+    devtool: 'source-map',
     module: {
         loaders: [
             {
