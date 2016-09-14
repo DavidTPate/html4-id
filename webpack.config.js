@@ -8,8 +8,10 @@ module.exports = {
         filename: 'html4-id.min.js',
         library: [
             'window'
-        ]
+        ],
+        sourceMapFilename: '[file].map'
     },
+    devtool: "source-map",
     module: {
         loaders: [
             {
@@ -27,6 +29,8 @@ module.exports = {
         ]
     },
     plugins: [
-        new webpack.optimize.UglifyJsPlugin()
+        new webpack.optimize.UglifyJsPlugin({
+            sourceMap: true
+        })
     ]
 };

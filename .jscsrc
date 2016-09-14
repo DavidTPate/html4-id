@@ -2,7 +2,8 @@
 {
   "excludeFiles": [
     "node_modules/*",
-    "coverage/*"
+    "coverage/*",
+    "dist/*"
   ],
   "fileExtensions": [
     ".js"
