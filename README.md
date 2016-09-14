@@ -36,5 +36,4 @@ idify('This is a test!'); // Returns "this-is-a-test"
 Removes invalid characters and generates an id meant to be used for HTML elements. See [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id) for the note about invalid characters.
 
 ## License
-
-  [MIT](LICENSE)
+[MIT](LICENSE)
